@@ -5,9 +5,8 @@ import TopBar from './components/misceleneous/TopBar';
 
 const App = () => {
   return (
-    <div className='w-full min-h-screen bg-dark_prime'>
+    <div className='w-full min-h-screen bg-dark_prime flex'>
       <SideNav/>
-      <TopBar/>
       <Home/>
     </div>
   )
